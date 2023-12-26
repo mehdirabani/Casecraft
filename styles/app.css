@@ -3,6 +3,7 @@
 @import "./grid-system.css";
 @import "./fonts.css";
 @import "./component.css";
+@import "./helper-class.css";
 /* ========== Create Root Project ========== */
 :root {
   --primary-color: #9672fb;
@@ -124,5 +125,4 @@ h6 {
 }
 .home__title {
 }
-.btn {
-}
+  
