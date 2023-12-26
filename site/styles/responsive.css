@@ -15,7 +15,7 @@
     opacity: 0;
     overflow: hidden;
     top: -200%;
-    transition: all .2s ease-in-out ;
+    transition: all .5s ease-in-out ;
   }
   .menu--open {
     gap: 1.5rem;
