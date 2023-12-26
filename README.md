@@ -7,4 +7,4 @@
 <a href="https://t.me/mehdirabani"><img src="https://img.shields.io/badge/Developer_mehdirabani-651fff">
 </div>
 
-<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/"><h3>live demo project </h3> </a>
+<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/">live demo project</a>
