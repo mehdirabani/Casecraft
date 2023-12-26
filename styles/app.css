@@ -36,6 +36,10 @@ h6 {
 .logo__type {
   font-size: 2.4rem;
   font-style: italic;
+  color: var(--heading-color) !important;
+}
+.logo__type:focus{
+  color: var(--heading-color);
 }
 .menu {
   display: flex;
