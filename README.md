@@ -6,5 +6,6 @@
 <img src="https://img.shields.io/badge/Free_Theme-00e676">
 <a href="https://t.me/mehdirabani"><img src="https://img.shields.io/badge/Developer_mehdirabani-651fff">
 </div>
-
-<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/">live demo project</a>
+<br>
+<br>
+<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/"><img src="https://img.shields.io/badge/Live%20Demo%20Project-ffa726"></a>
