@@ -2,6 +2,7 @@
 @import "./reset.css";
 @import "./grid-system.css";
 @import "./fonts.css";
+@import "./component.css";
 /* ========== Create Root Project ========== */
 :root {
   --primary-color: #9672fb;
@@ -103,4 +104,25 @@ h6 {
 .nav__toggle--open .nav-toggle-icon::before {
   width: 3.9rem;
   transform: translatey(1rem) rotate(45deg);
+}
+/* ========== Home Style Project ========== */
+.home {
+}
+.home__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__image-section {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+}
+.home__img {
+}
+.home__content {
+}
+.home__title {
+}
+.btn {
 }
