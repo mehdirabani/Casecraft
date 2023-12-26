@@ -26,6 +26,7 @@ h6 {
   min-height: 10rem;
   display: flex;
   align-items: center;
+  background: #fff;
 }
 .nav {
   display: flex;

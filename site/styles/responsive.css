@@ -3,8 +3,38 @@
 @media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 768px) {
-  .nav__toggle{
+  .header {
+    position: relative;
+  }
+  .nav__toggle {
     display: flex;
+  }
+  .menu{
+    position: absolute;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    top: -200%;
+    transition: all .2s ease-in-out ;
+  }
+  .menu--open {
+    gap: 1.5rem;
+    padding: 3rem 0 7rem;
+    margin:0 auto;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #fff;
+    box-shadow: 1rem 3rem 9rem rgba(23, 35, 77, 5%);
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
   }
 }
 @media screen and (max-width: 576px) {
