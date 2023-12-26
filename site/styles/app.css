@@ -3,15 +3,101 @@
 @import "./grid-system.css";
 @import "./fonts.css";
 /* ========== Create Root Project ========== */
-body{
-  color: var(--text-color);
-  font-size: 2rem;
-}
 :root {
   --primary-color: #9672fb;
   --heading-color: #2f2651;
   --text-color: #7a7490;
 }
-h2,h3,h4,h5,h6{
+/* ========== Create Basic Style Project ========== */
+body {
+  color: var(--text-color);
+  font-size: 2rem;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--heading-color);
+}
+/* ========== Header Style Project ========== */
+.header {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.logo__type {
+  font-size: 2.4rem;
+  font-style: italic;
+}
+.menu {
+  display: flex;
+  gap: 3rem;
+}
+.menu__item {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #a19daf;
+  padding-bottom: 0.6rem;
+  border-bottom: 0.2rem solid transparent;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+.menu__item:hover {
+  border-color: var(--heading-color);
+}
+.nav__toggle {
+  cursor: pointer;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 3.7rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.02);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.nav-toggle-icon {
+  width: 3.9rem;
+  height: 0.3rem;
+  background: #200e32;
+  position: relative;
+  border-radius: 5rem;
+  transition: all 0.1s ease-in-out;
+}
+.nav-toggle-icon::after,
+.nav-toggle-icon::before {
+  content: "";
+  position: absolute;
+  background: #200e32;
+  width: 2.1rem;
+  height: 0.3rem;
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+.nav-toggle-icon::after {
+  top: 1rem;
+  left: 0;
+}
+.nav-toggle-icon::before {
+  top: -1rem;
+  right: 0;
+}
+.nav__toggle--open .nav-toggle-icon {
+  background: transparent;
+}
+.nav__toggle--open .nav-toggle-icon::after {
+  width: 3.9rem;
+  transform: translatey(-1rem) rotate(-45deg);
+}
+.nav__toggle--open .nav-toggle-icon::before {
+  width: 3.9rem;
+  transform: translatey(1rem) rotate(45deg);
 }
