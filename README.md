@@ -8,4 +8,4 @@
 </div>
 <br>
 <br>
-<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/"><img src="https://img.shields.io/badge/Live%20Demo%20Project-ffa726"></a>
+<a target="_blank"  href="https://mehdirabani.github.io/Casecraft/"><img src="https://img.shields.io/badge/Visit-Live%20Demo%20Project-00796b"></a>
