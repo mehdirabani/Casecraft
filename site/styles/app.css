@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./grid-system.css";
+@import "./fonts.css";
+/* ========== Create Root Project ========== */
+body{
+  color: var(--text-color);
+  font-size: 2rem;
+}
+:root {
+  --primary-color: #9672fb;
+  --heading-color: #2f2651;
+  --text-color: #7a7490;
+}
+h2,h3,h4,h5,h6{
+  color: var(--heading-color);
+}
