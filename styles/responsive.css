@@ -31,8 +31,6 @@
     opacity: 1;
     overflow: visible;
   }
-}
-@media screen and (max-width: 768px) {
   /* ========== Home Style Project ========== */
   .home__wrapper {
     flex-direction: column;
@@ -40,6 +38,8 @@
   .btn__dowm-section {
     margin-top: 20rem;
   }
+}
+@media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 576px) {
   /* ========== Home Style Project ========== */
