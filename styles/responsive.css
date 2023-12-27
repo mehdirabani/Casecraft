@@ -9,18 +9,18 @@
   .nav__toggle {
     display: flex;
   }
-  .menu{
+  .menu {
     position: absolute;
     height: 0;
     opacity: 0;
     overflow: hidden;
     top: -200%;
-    transition: all .5s ease-in-out ;
+    transition: all 0.5s ease-in-out;
   }
   .menu--open {
     gap: 1.5rem;
     padding: 3rem 0 7rem;
-    margin:0 auto;
+    margin: 0 auto;
     top: 100%;
     left: 0;
     right: 0;
@@ -36,6 +36,19 @@
     opacity: 1;
     overflow: visible;
   }
+
+  .home__wrapper {
+    flex-direction: column;
+  }
+  .btn__dowm-section{
+    margin-top: 20rem;
+  }
 }
 @media screen and (max-width: 576px) {
+  .home__title{
+    font-size: 2rem;
+  }
+  .btn{
+    font-size: 1.4rem;
+  }
 }
