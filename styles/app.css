@@ -163,7 +163,6 @@ h6 {
 }
 .about__wrapper {
   background: url(../assets/images/Shape-appName.png) no-repeat center;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
