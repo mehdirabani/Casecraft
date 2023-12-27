@@ -40,7 +40,7 @@ h6 {
   font-style: italic;
   color: var(--heading-color) !important;
 }
-.logo__type:focus{
+.logo__type:focus {
   color: var(--heading-color);
 }
 .menu {
@@ -115,14 +115,48 @@ h6 {
   justify-content: space-between;
 }
 .home__image-section {
+  background: url(../assets/images/Shape-header.png) no-repeat center;
+}
+.home__img {
   width: 100%;
   display: block;
   margin-left: auto;
 }
-.home__img {
-}
 .home__content {
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .home__title {
+  /* width: 11rem ; */
+  margin-bottom: 4rem;
+  direction: rtl;
+  font-size: 2.8rem;
+  white-space: nowrap;
 }
-  
+.home__title span {
+  color: var(--primary-color);
+}
+.btn__dowm-section {
+  width: 2.4rem;
+  height: 4.1rem;
+  background-color: transparent;
+  border: 0.35rem solid #e1e2eb;
+  border-radius: 2.4rem;
+  margin: auto;
+  position: relative;
+}
+.btn__dowm-section::after {
+  content: "";
+  position: absolute;
+  top: .5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 0.5rem solid #e1e2eb;
+  width: 1rem;
+  height: 1.5rem;
+  border-radius: 100%;
+}
