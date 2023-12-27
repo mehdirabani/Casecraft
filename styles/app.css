@@ -48,7 +48,7 @@ h6 {
   gap: 3rem;
 }
 .menu__item {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #a19daf;
   padding-bottom: 0.6rem;
@@ -194,22 +194,32 @@ h6 {
 /* ========== Superhero Style Project ========== */
 .superhero {
 }
-.superhero__sub-title {
+.section__sub-title {
   font-size: 2.4rem;
   font-weight: 600;
 }
-.superhero__title {
+.section__title {
   font-size: 6rem;
   color: var(--primary-color);
   line-height: 9.6rem;
 }
-.superhero__description {
+.section__description {
   font-style: italic;
+  max-width: 60rem;
 }
 .superhero__container-fluid {
   margin: 2rem 0;
-  padding-left: 10rem;
 }
 .superhero_container-fluid__img {
+  width: 100%;
+}
+/* ========== Photos App Style Project ========== */
+.photos-pattern {
+}
+.photos-pattern__container-fluid {
+  width: 100%;
+  margin: 2rem 0;
+}
+.photos-pattern-container-fluid__img {
   width: 100%;
 }
