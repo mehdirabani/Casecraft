@@ -192,3 +192,24 @@ h6 {
   width: 100%;
 }
 /* ========== Superhero Style Project ========== */
+.superhero {
+}
+.superhero__sub-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.superhero__title {
+  font-size: 6rem;
+  color: var(--primary-color);
+  line-height: 9.6rem;
+}
+.superhero__description {
+  font-style: italic;
+}
+.superhero__container-fluid {
+  margin: 2rem 0;
+  padding-left: 10rem;
+}
+.superhero_container-fluid__img {
+  width: 100%;
+}
