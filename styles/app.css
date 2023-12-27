@@ -223,3 +223,21 @@ h6 {
 .photos-pattern-container-fluid__img {
   width: 100%;
 }
+/* ========== Why Sections  Style Project ========== */
+.why__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.why__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+.why__title {
+  font-size: 3rem;
+}
+.why__img {
+  width: 100%;
+}
