@@ -3,6 +3,7 @@
 @media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 768px) {
+  /* ========== Header Style Project ========== */
   .header {
     position: relative;
   }
@@ -36,19 +37,20 @@
     opacity: 1;
     overflow: visible;
   }
-
+  /* ========== Home Style Project ========== */
   .home__wrapper {
     flex-direction: column;
   }
-  .btn__dowm-section{
+  .btn__dowm-section {
     margin-top: 20rem;
   }
 }
 @media screen and (max-width: 576px) {
-  .home__title{
+  /* ========== Home Style Project ========== */
+  .home__title {
     font-size: 2rem;
   }
-  .btn{
+  .btn {
     font-size: 1.4rem;
   }
 }

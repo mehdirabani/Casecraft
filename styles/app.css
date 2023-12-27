@@ -107,8 +107,6 @@ h6 {
   transform: translatey(1rem) rotate(45deg);
 }
 /* ========== Home Style Project ========== */
-.home {
-}
 .home__wrapper {
   display: flex;
   align-items: center;
