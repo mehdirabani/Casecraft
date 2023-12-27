@@ -167,6 +167,7 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .about__title {
   font-size: 3rem;
@@ -174,11 +175,10 @@ h6 {
 }
 .about__description {
   word-spacing: 1.5rem;
-  text-align: center;
   font-size: 2rem;
   line-height: 3.5rem;
 }
-.about-app .btn{
+.about-app .btn {
   margin: 5rem 0;
 }
 .about__icon {
@@ -188,6 +188,6 @@ h6 {
 .about__container-fluid {
   margin: 2rem 0;
 }
-.about__container-fluid img{
+.about__container-fluid img {
   width: 100%;
 }
