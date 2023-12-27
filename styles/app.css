@@ -241,3 +241,20 @@ h6 {
 .why__img {
   width: 100%;
 }
+/* ========== Footer  Style Project ========== */
+.footer {
+  background: url(../assets/images/BG\ Assets.png) no-repeat center
+    var(--primary-color);
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.footer__icone {
+}
+.footer__title {
+  color: #fff;
+  font-size: 2.5rem;
+}
