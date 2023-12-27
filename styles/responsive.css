@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 992px) {
-  .home{
+  .nav{
     position: relative;
   }
   .nav__toggle {
